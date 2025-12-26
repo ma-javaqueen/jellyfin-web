@@ -46,6 +46,8 @@ import './styles/dashboard.scss';
 import './styles/detailtable.scss';
 import './styles/librarybrowser.scss';
 
+
+
 async function init() {
     // Log current version to console to help out with issue triage and debugging
     console.info(
@@ -202,7 +204,7 @@ async function renderApp() {
     // Remove the splash logo
     container.innerHTML = '';
 
-    loading.show();
+      loading.show();
 
     const root = createRoot(container);
     root.render(
