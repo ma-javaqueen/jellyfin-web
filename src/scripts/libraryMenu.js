@@ -745,7 +745,7 @@ function setDefaultTitle () {
         pageTitleElement.classList.add('pageTitleWithLogo');
         pageTitleElement.classList.add('pageTitleWithDefaultLogo');
         pageTitleElement.style.backgroundImage = null;
-        pageTitleElement.innerHTML = '';
+        pageTitleElement.innerHTML = '<img src="/assets/img/crown.jpg" alt="logo" style="height:50px;">';
     }
 
     document.title = documentTitle;
